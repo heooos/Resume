@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">个人简历</string>
+    <string name="app_edu">主要课程</string>
+    <string name="action_settings">设置</string>
+    <string name="action_weibo">个人微博</string>
+    <string name="action_wechat">个人微信</string>
+    <string name="app_qrcodeview">二维码</string>
+    <string name="description">Headimage</string>
+    
+</resources>
