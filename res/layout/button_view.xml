@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_per_exp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_per_info"
+        android:layout_below="@+id/btn_per_info"
+        android:layout_marginTop="20dp"
+        android:text="实习经历" />
+
+    <Button
+        android:id="@+id/btn_per_cer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_per_other"
+        android:layout_alignLeft="@+id/btn_per_edu"
+        android:text="获奖证书" />
+
+    <Button
+        android:id="@+id/btn_per_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_per_exp"
+        android:layout_alignRight="@+id/btn_per_exp"
+        android:layout_below="@+id/btn_per_exp"
+        android:layout_marginTop="20dp"
+        android:text="其     他" />
+
+    <Button
+        android:id="@+id/btn_per_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_per_other"
+        android:layout_alignBottom="@+id/btn_per_other"
+        android:layout_alignLeft="@+id/btn_per_cer"
+        android:text="联系方式" />
+
+    <Button
+        android:id="@+id/btn_per_edu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_per_exp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:text="主要课程" />
+
+    <Button
+        android:id="@+id/btn_per_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="32dp"
+        android:text="个人信息" />
+
+</RelativeLayout>

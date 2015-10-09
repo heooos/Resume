@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CCEEF9"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.mytest.personalresume.SettingsActivity" >
+
+    <Button
+        android:id="@+id/btn_settings1"
+        android:background="#7CCFF3"
+        android:gravity="left|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  占坑" />
+
+    <Button
+        android:id="@+id/btn_settings2"
+        android:gravity="left|center_vertical"
+        android:background="#7CCFF3"
+        android:layout_margin="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  占坑" />
+
+    <Button
+        android:id="@+id/btn_settings3"
+        android:gravity="left|center_vertical"
+        android:background="#7CCFF3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  占坑" />
+
+    <Button
+        android:id="@+id/btn_settings4"
+        android:gravity="left|center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="#7CCFF3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  版本号：V1.0" />
+
+    <Button
+        android:id="@+id/btn_settings5"
+        android:layout_marginTop="1dp"
+        android:gravity="left|center_vertical"
+        android:background="#7CCFF3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  版本检测" />
+
+    <TextView
+        android:id="@+id/tv_settings1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Author:Heooos" />
+
+</LinearLayout>
