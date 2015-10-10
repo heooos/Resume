@@ -12,7 +12,7 @@ public class QRCodeView extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.qrcode_dialog);
+		setContentView(R.layout.qrcode_view);
 		qrCodeView = (ImageView)findViewById(R.id.qrcode_view);
 		qrCodeView.setOnClickListener(new OnClickListener() {
 			@Override

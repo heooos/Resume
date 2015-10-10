@@ -10,5 +10,9 @@
     <string name="description">Headimage</string>
     <string name="title_activity_settings">设置</string>
     <string name="hello_world">Hello world!</string>
+    <string name="circuit_ana">电路分析是与电力及电信等专业有关的一门基础学科。</string>
+    <string name="digital_ele">用数字信号完成对数字量进行算术运算和逻辑运算的电路称为数字电路，或数字系统。</string>
+    <string name="analog_ele">模拟电子技术是一门研究对仿真信号进行处理的模拟电路的学科。</string>
+    <string name="com_theory">系统深入地分析了通信系统的模型、基本原理和性能，包括模拟通信系统和数字通信系统，并以数字通信系统为主。</string>
 
 </resources>

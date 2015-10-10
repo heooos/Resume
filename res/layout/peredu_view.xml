@@ -1,15 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="#90cebc"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <include
+        android:id="@+id/include1"
+        layout="@layout/peredu_pic" />
+    
+"    <TextView
+        android:id="@+id/circuit_ana"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/include1"
+        android:layout_marginTop="105dp"
+        android:layout_toRightOf="@+id/include1"
+        android:text="@string/circuit_ana" />
+
+    <TextView
+        android:id="@+id/digital_ele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circuit_ana"
+        android:layout_marginTop="87dp"
+        android:layout_toRightOf="@+id/include1"
+        android:text="@string/digital_ele" />
 
     <Button
         android:id="@+id/btn_per_eduBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
-        android:text="返回" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="返回" 
+        android:background="#D4D9E0"/>
 
+    <TextView
+        android:id="@+id/analog_ele"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/digital_ele"
+        android:layout_marginTop="101dp"
+        android:layout_toRightOf="@+id/include1"
+        android:text="@string/analog_ele" />
+
+    <TextView
+        android:id="@+id/com_theory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/include1"
+        android:layout_alignLeft="@+id/analog_ele"
+        android:text="@string/com_theory" />
+    
 </RelativeLayout>
